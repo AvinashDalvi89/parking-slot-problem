@@ -3,7 +3,8 @@
 class Car {
         public $color;
         public $regNo;
-        public function Car($regNo, $color) {
+        public function __construct($regNo, $color) {
+            //echo $regNo."afsafsfs";
             $this->regNo = $regNo;
             $this->color = $color;
         }
